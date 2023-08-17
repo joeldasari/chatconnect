@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/chatconnect/static/css/main.b0e8a9e1.css",
+    "main.css": "/chatconnect/static/css/main.a86fc8fa.css",
     "main.js": "/chatconnect/static/js/main.d083c910.js",
     "static/media/userpic.jpg": "/chatconnect/static/media/userpic.d6951c2300cf4631707c.jpg",
     "static/media/phoneIcon.png": "/chatconnect/static/media/phoneIcon.4c73ab5df4d72aebbb15.png",
     "static/media/addImage.png": "/chatconnect/static/media/addImage.8711ffcde544eb8956d0.png",
     "static/media/profilepic.jpg": "/chatconnect/static/media/profilepic.631b3cb10c696b5b2e5c.jpg",
     "index.html": "/chatconnect/index.html",
-    "main.b0e8a9e1.css.map": "/chatconnect/static/css/main.b0e8a9e1.css.map",
+    "main.a86fc8fa.css.map": "/chatconnect/static/css/main.a86fc8fa.css.map",
     "main.d083c910.js.map": "/chatconnect/static/js/main.d083c910.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0e8a9e1.css",
+    "static/css/main.a86fc8fa.css",
     "static/js/main.d083c910.js"
   ]
 }
