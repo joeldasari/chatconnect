@@ -128,10 +128,7 @@
 
   .container {
     display: flex;
-    height: 100vh;
-    @include tablet {
-      background-size: cover;
-    }
+    min-height: 100vh;
   }
 
   .sidebar {
