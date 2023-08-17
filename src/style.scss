@@ -384,6 +384,9 @@
   }
 }
 .bottomContainer {
+  @include tablet {
+    max-width: 600px;
+  }
   .inputBox {
     display: flex;
     justify-content: space-between;
@@ -397,6 +400,9 @@
         outline: none;
         padding: 5px;
         width: 800px;
+        @include tablet {
+          width: 400px;
+        }
       }
     }
 
