@@ -129,6 +129,12 @@
   .container {
     display: flex;
     height: 100vh;
+    @include tablet {
+      max-height: 1260px;
+    }
+    @include tablet {
+      max-width: 800px;
+    }
   }
 
   .sidebar {
@@ -266,9 +272,7 @@
 
 .chat {
   background-color: #e5d9f7;
-  @include tablet {
-    max-width: 600px;
-  }
+
   .topContainer {
     height: 75px;
     border-bottom: 1px solid black;
@@ -384,9 +388,6 @@
   }
 }
 .bottomContainer {
-  @include tablet {
-    max-width: 600px;
-  }
   .inputBox {
     display: flex;
     justify-content: space-between;
@@ -400,9 +401,6 @@
         outline: none;
         padding: 5px;
         width: 800px;
-        @include tablet {
-          width: 400px;
-        }
       }
     }
 
