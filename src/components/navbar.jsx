@@ -8,7 +8,9 @@ const Navbar = () => {
       <div className="persondetails">
         <img src={profilepic} alt="profile-pic" />
         <span className="userName">Tomioka Giyu</span>
-        <button>Logout</button>
+        <div className="logout">
+          <button>Logout</button>
+        </div>
       </div>
     </div>
   );

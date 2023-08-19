@@ -26,10 +26,10 @@
 .formContainer {
   background-color: #7d8df6;
   height: 100vh;
+  width: 100%;
   font-family: "Poppins", sans-serif;
 
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -128,10 +128,21 @@
   @include tablet {
     height: 1260px;
   }
+  @include mobile {
+    height: 600px;
+  }
 
   .container {
     display: flex;
     height: 100vh;
+
+    @include tablet {
+      overflow: hidden;
+    }
+
+    @include mobile {
+      overflow: hidden;
+    }
   }
 
   .sidebar {
@@ -152,9 +163,16 @@
           width: 100%;
           padding: 10px;
           caret-color: #ddddf7;
+
+          @include mobile {
+            padding: 8px;
+          }
         }
         ::placeholder {
           color: #ddddf7;
+          @include mobile {
+            font-size: 10px;
+          }
         }
       }
       .userChat {
@@ -164,6 +182,11 @@
         gap: 15px;
         cursor: pointer;
 
+        @include mobile {
+          padding: 5px;
+          gap: 5px;
+        }
+
         &:hover {
           background-color: #2f2d52;
         }
@@ -172,12 +195,23 @@
           height: 50px;
           border-radius: 50%;
           object-fit: cover;
+
+          @include mobile {
+            width: 36px;
+            height: 36px;
+          }
         }
         .userInfo {
+          display: flex;
+          flex-direction: column;
           .userName {
             color: white;
             font-size: 16px;
             font-weight: 600;
+
+            @include mobile {
+              font-size: 10px;
+            }
           }
         }
       }
@@ -190,6 +224,11 @@
         gap: 15px;
         cursor: pointer;
 
+        @include mobile {
+          padding: 5px;
+          gap: 5px;
+        }
+
         &:hover {
           background-color: #2f2d52;
         }
@@ -198,16 +237,32 @@
           height: 50px;
           border-radius: 50%;
           object-fit: cover;
+
+          @include mobile {
+            width: 36px;
+            height: 36px;
+          }
         }
         .userInfo {
+          display: flex;
+          flex-direction: column;
+          gap: 2px;
           .userName {
             color: white;
             font-size: 16px;
             font-weight: 600;
+
+            @include mobile {
+              font-size: 10px;
+            }
           }
           .userMsg {
             color: lightgray;
             font-size: 14px;
+
+            @include mobile {
+              font-size: 10px;
+            }
           }
         }
       }
@@ -216,6 +271,9 @@
 
   .chat {
     flex: 2;
+    @include mobile {
+      width: 200px;
+    }
   }
 }
 
@@ -246,19 +304,39 @@
     align-items: center;
     gap: 10px;
 
+    @include mobile {
+      gap: 5px;
+    }
+
     .userName {
       font-size: 14px;
       font-weight: 600;
+
+      @include mobile {
+        font-size: 10px;
+        font-weight: 600;
+      }
     }
 
-    button {
-      color: white;
-      padding: 5px;
-      font-size: 12px;
-      background-color: #5d5b8d;
-      border: none;
-      outline: none;
-      cursor: pointer;
+    .logout {
+      @include mobile {
+        position: absolute;
+        top: 95%;
+      }
+      button {
+        color: white;
+        padding: 5px;
+        font-size: 12px;
+        background-color: #5d5b8d;
+        border: none;
+        outline: none;
+        cursor: pointer;
+
+        @include mobile {
+          font-size: 8px;
+          padding: 3px;
+        }
+      }
     }
     img {
       background-color: #ddddf7;
@@ -392,7 +470,10 @@
 }
 .bottomContainer {
   @include tablet {
-    max-width: 600px;
+    width: 600px;
+  }
+  @include mobile {
+    width: 280px;
   }
   .inputBox {
     display: flex;
@@ -409,6 +490,9 @@
         width: 800px;
         @include tablet {
           width: 400px;
+        }
+        @include mobile {
+          max-width: 120px;
         }
       }
     }
