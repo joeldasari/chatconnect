@@ -126,10 +126,10 @@
   height: 100vh;
   width: 100%;
   @include tablet {
-    height: 96vh;
+    height: 95vh;
   }
   @include mobile {
-    height: 96vh;
+    height: 95vh;
   }
 
   .container {
@@ -138,6 +138,11 @@
 
     @include tablet {
       overflow: hidden;
+      height: 95vh;
+    }
+    @include mobile {
+      overflow: hidden;
+      height: 95vh;
     }
   }
 
@@ -317,7 +322,7 @@
     .logout {
       @include mobile {
         position: absolute;
-        top: 95%;
+        top: 94%;
       }
       button {
         color: white;
@@ -496,7 +501,7 @@
           width: 400px;
         }
         @include mobile {
-          max-width: 120px;
+          max-width: 110px;
         }
       }
     }

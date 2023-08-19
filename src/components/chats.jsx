@@ -8,7 +8,7 @@ const Chats = () => {
         <img src={userpic} alt="userpic" />
         <div className="userInfo">
           <span className="userName">Kocho Shinobu</span>
-          <p className="userMsg"></p>
+          <p className="userMsg">Moshi Moshi</p>
         </div>
       </div>
       <div className="userChat">
