@@ -126,10 +126,10 @@
   height: 100vh;
   width: 100%;
   @include tablet {
-    height: 95vh;
+    height: 94vh;
   }
   @include mobile {
-    height: 95vh;
+    height: 94vh;
   }
 
   .container {
@@ -138,11 +138,11 @@
 
     @include tablet {
       overflow: hidden;
-      height: 95vh;
+      height: 94vh;
     }
     @include mobile {
       overflow: hidden;
-      height: 95vh;
+      height: 94vh;
     }
   }
 
