@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/chatconnect/static/css/main.95f39956.css",
-    "main.js": "/chatconnect/static/js/main.d083c910.js",
+    "main.css": "/chatconnect/static/css/main.b639ec57.css",
+    "main.js": "/chatconnect/static/js/main.402cb064.js",
     "static/media/userpic.jpg": "/chatconnect/static/media/userpic.d6951c2300cf4631707c.jpg",
     "static/media/phoneIcon.png": "/chatconnect/static/media/phoneIcon.4c73ab5df4d72aebbb15.png",
     "static/media/addImage.png": "/chatconnect/static/media/addImage.8711ffcde544eb8956d0.png",
     "static/media/profilepic.jpg": "/chatconnect/static/media/profilepic.631b3cb10c696b5b2e5c.jpg",
     "index.html": "/chatconnect/index.html",
-    "main.95f39956.css.map": "/chatconnect/static/css/main.95f39956.css.map",
-    "main.d083c910.js.map": "/chatconnect/static/js/main.d083c910.js.map"
+    "main.b639ec57.css.map": "/chatconnect/static/css/main.b639ec57.css.map",
+    "main.402cb064.js.map": "/chatconnect/static/js/main.402cb064.js.map"
   },
   "entrypoints": [
-    "static/css/main.95f39956.css",
-    "static/js/main.d083c910.js"
+    "static/css/main.b639ec57.css",
+    "static/js/main.402cb064.js"
   ]
 }
